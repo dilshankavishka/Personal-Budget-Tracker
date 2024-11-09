@@ -21,5 +21,5 @@ public class ExpenseEntity {
     private String description;
     private String type;
     private Date date;
-
+    private Double amount;
 }
