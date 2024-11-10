@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/expense")
 @RequiredArgsConstructor
+@CrossOrigin
 public class ExpenseController {
     @Autowired
     final  ExpenseService service;
